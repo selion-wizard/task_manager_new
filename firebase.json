@@ -1,0 +1,26 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "taskmanager-e86f1",
+          "configurations": {
+            "web": "1:39280993129:web:90d25229c7ae59e21f53f8"
+          }
+        }
+      }
+    }
+  }
+}
